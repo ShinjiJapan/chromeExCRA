@@ -1,0 +1,10 @@
+{
+  "manifest_version": 2,
+  "version": "1.0",
+  "name": "CRA test",
+  "description": "CRAで作ってみた",
+  "browser_action": {
+    "default_icon": "logo512.png",
+    "default_popup": "index.html"
+  }
+}
