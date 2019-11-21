@@ -4,7 +4,18 @@
   "name": "CRA test",
   "description": "CRAで作ってみた",
   "browser_action": {
-    "default_icon": "logo512.png",
+    "default_icon": "icon.png",
     "default_popup": "index.html"
-  }
+  },
+  "background": {
+    "scripts": [
+      "background.js"
+    ],
+    "persistent": false
+  },
+  "permissions": [
+    "tabs",
+    "http://*/*",
+    "https://*/*"
+  ]
 }

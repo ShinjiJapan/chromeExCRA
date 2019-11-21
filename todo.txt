@@ -1,0 +1,6 @@
+errorを消す
+icon
+progress
+デザイン
+license
+
